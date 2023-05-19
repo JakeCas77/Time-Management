@@ -28,50 +28,69 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container-lg px-5">
-      <!-- Use class for "past", "present", and "future" to apply styles to the
-        time-block divs accordingly. The javascript will need to do this by
-        adding/removing these classes on each div by comparing the hour in the
-        id to the current hour. The html provided below is meant to be an example
-        demonstrating how the css provided can be leveraged to create the
-        desired layout and colors. The html below should be removed or updated
-        in the finished product. Remember to delete this comment once the
-        code is implemented.
-        -->
 
-      <!-- Example of a past time block. The "past" class adds a gray background color. -->
-      <div id="hour-9" class="row time-block past">
-        <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-          <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
+    <div class="container">
+      <!-- 1st hour -->
+      <div id="time-9" class="row block">
+        <div class="col-2 hour">09:00 am</div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-save"></i></button>
+      </div>
+  
+      <!-- 2nd hour -->
+      <div id="time-10" class="row block">
+        <div class="col-2 hour">10:00 am</div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 3rd hour -->
+      <div id="time-11" class="row block">
+        <div class="col-2 hour">11:00 am</div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-save"></i></button>
+      </div>
+  
+      <!-- 4th hour -->
+      <div id="time-12" class="row block">
+        <div class="col-2 hour">12:00 pm</div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-save"></i></button>
+      </div>
+  
+      <!-- 5th hour -->
+      <div id="time-13" class="row block">
+        <div class="col-2 hour">01:00 pm</div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-save"></i></button>
+      </div>
+  
+      <!-- 6th hour -->
+      <div id="time-14" class="row block">
+        <div class="col-2 hour">02:00 pm</div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 7th hour -->
+      <div id="time-15" class="row block">
+        <div class="col-2 hour">03:00 pm</div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 8th hour -->
+      <div id="time-16" class="row block">
+        <div class="col-2 hour">04:00 pm</div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-save"></i></button>
+      </div>
+      <!-- 9th hour -->
+      <div id="time-17" class="row block">
+        <div class="col-2 hour">05:00 pm</div>
+        <textarea class="col-8 description"></textarea>
+        <button class="btn saveBtn col-2"><i class="fas fa-save"></i></button>
       </div>
 
-      <!-- Example of a a present time block. The "present" class adds a red background color. -->
-      <div id="hour-10" class="row time-block present">
-        <div class="col-2 col-md-1 hour text-center py-3">10AM</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-          <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
-      </div>
-
-      <!-- Example of a future time block. The "future" class adds a green background color. -->
-      <div id="hour-11" class="row time-block future">
-        <div class="col-2 col-md-1 hour text-center py-3">11AM</div>
-        <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
-        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
-          <i class="fas fa-save" aria-hidden="true"></i>
-        </button>
-      </div>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
-      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
-      crossorigin="anonymous"
-    ></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 
     <script src="script.js"></script>
   </body>
