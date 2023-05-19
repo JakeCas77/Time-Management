@@ -8,3 +8,4 @@ https://jakecas77.github.io/Time-Management/
 
 ## Screenshot
 
+![image](https://github.com/JakeCas77/Time-Management/assets/130330468/3b542f30-3e4f-4ca1-97ee-c5ba81150555)
